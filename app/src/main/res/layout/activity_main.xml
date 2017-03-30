@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.araujo.androidhttp.example.MainActivity">
+
+    <TextView
+        android:id="@+id/memory_database_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memory/Database: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/server_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_server_no_persist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Server / No Persist" />
+
+    <Button
+        android:id="@+id/button_database_server_no_persist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Database and Server / No Persist" />
+
+    <Button
+        android:id="@+id/button_server_persist_database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server / Persist Database" />
+
+    <Button
+        android:id="@+id/button_server_persist_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server / Persist Memory" />
+
+    <Button
+        android:id="@+id/button_database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Database" />
+
+    <Button
+        android:id="@+id/button_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memory" />
+    <Button
+        android:id="@+id/button_best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best (Database or Memory)" />
+
+</LinearLayout>
